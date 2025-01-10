@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 /* Banner styles */
 .banner {
     background-image: 
@@ -19,12 +22,17 @@
 }
 
 .title {
-    font-size: 85px;
-    font-weight: bold;
+    font-size: 72px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
 }
 
 .sub-title {
-    font-size: 40px;
+    font-size: 32px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* offer styles */
@@ -42,4 +50,55 @@
     height: 806px;
     width: 803px;
    
+}
+
+.offer-title {
+    color: red;
+font-size: 88px;
+margin-top: 100px;
+font-family: "Inter", serif;
+font-optical-sizing: auto;
+font-weight: bold;
+font-style: normal;
+
+}
+
+.offer-description {
+font-size: 20px;
+    color: red; 
+    margin-bottom: 0%;
+}
+
+.categories {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+/* party styles*/ 
+.party{
+    background-image: url('/images/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 80%;
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin: 50px auto;
+    flex-direction: column;
+    color: white;
+}
+
+.party-title{ 
+font-size: 80px;
+}
+
+.party-description{
+
+}
+
+.party-button {
+
 }
